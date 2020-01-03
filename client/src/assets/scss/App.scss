@@ -1,0 +1,13 @@
+$lookfit-base-path: "~@curefit/lookfit-lib";
+$icon-font-path: "~bootstrap-sass/assets/fonts/bootstrap/";
+$bootstrap-sass-asset-helper: true;
+
+@import "~@curefit/lookfit-lib/css/lookfitall";
+@import "~bootstrap-sass/assets/stylesheets/_bootstrap.scss";
+@import "~react-crux/scss/crux.scss";
+@import "Assessment";
+@import "~react-datetime/css/react-datetime.css";
+
+body {
+  font-family: 'BrandonTextWeb-Light', sans-serif;
+}

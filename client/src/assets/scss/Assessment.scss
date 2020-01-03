@@ -1,0 +1,39 @@
+@import "./TextLabelInput.scss";
+@import "./MultiChoiceQuestion.scss";
+@import "./InfoScreenType.scss";
+
+.assessment-container {
+  width: 100%;
+  padding: 10px;
+}
+
+.form-button {
+  margin: 10px;
+}
+
+.assessment-actions {
+  width: 35%;
+  align-content: center;
+}
+
+.assessment-container .assessment-input {
+  display: inline-block;
+  vertical-align: top;
+  width: 150px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+}
+
+.assessment-container .assessment-cb {
+  vertical-align: middle;
+  margin-top: 15px;
+}
+
+.assessment-container .assessment-cb input {
+  margin-right: 5px;
+  vertical-align: middle;
+}
+
+.assessment-container .isself-text {
+  vertical-align: middle;
+}

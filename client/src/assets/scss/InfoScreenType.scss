@@ -1,0 +1,29 @@
+$font-size: 30px;
+$container-height: 80px;
+
+.metric-sum-score-container {
+  height: $container-height;
+  border-radius: 15px;
+  padding: 12px 10px 10px 20px;
+  font-weight: bold;
+  color: white;
+}
+
+.metric-sum-result {
+  font-size: $font-size;
+}
+
+.metric-sum-label {
+  font-size: $font-size/2;
+}
+
+.metric-sum-result-label {
+  text-align: right;
+  font-size: $font-size;
+}
+
+.metric-sum-legend {
+  width: 80%;
+  margin: auto;
+  padding-top: 30px;
+}

@@ -1,0 +1,22 @@
+.text-label-input {
+  .tli-label {
+    margin-bottom: 0;
+    font-size: 12px;
+    font-weight: 700;
+    color: #8697bf;
+  }
+
+  .tli-input {
+    width: 100%;
+    outline: none;
+    padding: 2px 3px 2px 3px;
+    font-size: 11px;
+    color: #555;
+    border: 1px solid #ddd;
+  }
+
+  .tli-input::placeholder {
+    font-size: 11px;
+    color: #bbb;
+  }
+}
