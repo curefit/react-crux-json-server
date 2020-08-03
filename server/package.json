@@ -1,9 +1,13 @@
 {
-	"scripts": {
-		"start": "node server.js",
-		"postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
-	},
-	"dependencies": {
-		"json-server": "^0.15.1"
-	}
+  "scripts": {
+    "start": "node server.js",
+    "postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+  },
+  "dependencies": {
+    "json-server": "^0.15.1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/curefit/react-crux-json-server.git"
+  }
 }
