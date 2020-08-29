@@ -1,7 +1,6 @@
 {
   "scripts": {
-    "start": "node server.js",
-    "postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+    "start": "node server.js"
   },
   "dependencies": {
     "json-server": "^0.15.1"
