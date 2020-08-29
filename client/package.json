@@ -12,8 +12,7 @@
     "tslint-fix": "tslint --project tsconfig.json --fix",
     "start": "npm run start-dev",
     "start-dev": "webpack-dev-server --config=configs/webpack/dev.js",
-    "start-prod": "npm run build",
-    "postpublish": "npm publish --registry https://npm.pkg.github.com/ --ignore-scripts"
+    "start-prod": "npm run build"
   },
   "license": "ISC",
   "devDependencies": {
